@@ -1,4 +1,4 @@
-FROM  yidian7/grpc_opencv_dlib:latest
+FROM  yidian7/opencv:latest
 LABEL dlib Yin jiao<yinjiao@jcble.com>
 
 WORKDIR /usr/local/src
