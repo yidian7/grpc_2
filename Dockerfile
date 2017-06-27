@@ -5,7 +5,7 @@ WORKDIR /usr/local/src
 
 
 #install dlib_change_save_size_to_256
-RUN yum -y install wget
+RUN apt-get -y install wget
 RUN apt-get update && apt-get install -y \
   build-essential autoconf libtool \
   git \
