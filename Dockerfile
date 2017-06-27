@@ -21,7 +21,6 @@ RUN mv some_file/interpolation_abstract.h dlib/dlib/image_transforms/
 RUN cd dlib/examples
 RUN mkdir build
 RUN cd build
-RUN mkdir /usr/local
 RUN cmake ..
 RUN cmake --build . --config Release
 RUN cd ../
