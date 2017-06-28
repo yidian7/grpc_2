@@ -1,4 +1,4 @@
-FROM  yidian7/docker-opencv-dlib:latest
+FROM  yidian7/opencv-dlib:latest
 LABEL dlib Yin jiao<yinjiao@jcble.com>
 
 WORKDIR /usr/local/src
